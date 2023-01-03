@@ -177,10 +177,108 @@ body {
 }
 
 
-/* Hero section styles end */
+/************* Hero section styles end ***********/
 
 
-/* Article styles start */
+/************* Link input section styles start ***********/
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    padding: 52px 65px;
+    background-image: url(../images/shorten-back.png);
+}
+
+.input-form {
+    width: 769px;
+    padding: 14px 0 14px 32px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.link-input::placeholder {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #34313D;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.input-btn {
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #2BD0D0;
+    border-radius: 10px;
+    padding: 18px 40px 16px 41px;
+    border: 0;
+    cursor: pointer;
+}
+
+.input-btn:active {
+    transform: translateY(3px);
+    background: #9AE3E3;
+}
+
+.result {
+    display: flex;
+    position: relative;
+    background-color: #232127;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+    width: 1110px;
+    margin: auto;
+    padding: 16px 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.newUrl-btn {
+    display: block;
+    background-color: #2BD0D0;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 31px 7px 31px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.newUrl-btn:active {
+    transform: translateY(3px);
+    background: #9AE3E3;
+}
+
+.link-paste {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: right;
+    letter-spacing: 0.15px;
+    color: #2BD0D0;
+    margin: 0 800px 0 0;
+}
+
+
+/************* Link input section styles end ***********/
+
+
+/************** Article styles start *********/
 
 .site-article {
     position: absolute;
@@ -230,10 +328,10 @@ body {
 }
 
 
-/* Article styles end */
+/************ Article styles end *************/
 
 
-/* Advanced section starts */
+/********** Advanced section starts ***********/
 
 .advanced-section {
     background-color: #EFF1F7;
@@ -371,7 +469,7 @@ body {
 }
 
 
-/* Advanced section ends */
+/*********** Advanced section ends ************/
 
 
 /************************** Main styles end **************************/
